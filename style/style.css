@@ -1,6 +1,12 @@
+.card{
+max-height: 767px;
+min-height: 767px;
+max-width: 416pz;
+max-width: 416px;
+}
 .card-img-top{
-	max-width: 293.99px;
-	min-width: 293.99px;
-	max-height: 144px;
-	min-height: 144px;
+max-height: 613px;
+min-height: 613px;
+max-width: 416pz;
+max-width: 416px;
 }
