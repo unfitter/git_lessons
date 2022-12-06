@@ -11,9 +11,11 @@ if(count($user) == 0){
     exit();
 }
 
-setcookie('user', $user['name'], time() + 3600, "/");
+
+
+setcookie('user', $user['Имя'], time() + 36000, "/");
 
 $mysql->close();
-header('Location: /');
+header('Location: /index.php');
 
 ?>
