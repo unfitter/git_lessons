@@ -1,6 +1,7 @@
 <?php
 $login = filter_var(trim($_POST['login']));
 $password = filter_var(trim($_POST['password']));
+$password = md5($password);
 
 $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
 
@@ -16,6 +17,6 @@ if(count($user) == 0){
 setcookie('user', $user['Имя'], time() + 36000, "/");
 
 $mysql->close();
-header('Location: /index.php');
+header('Location: index.php');
 
 ?>
