@@ -14,6 +14,7 @@ $id1 = $query1->fetch_assoc();
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link href="productstyle.css" rel="stylesheet" type="text/css">
+  <link href="button.css" rel="stylesheet" type="text/css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <title></title>
 </head>
@@ -28,7 +29,7 @@ $id1 = $query1->fetch_assoc();
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"> 
-            <a class="nav-link active" aria-current="page" href="index.php">Cinema</a>
+            <a class="nav-link active" aria-current="page" href="/index.php">Cinema</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="theater.html">Theater</a>
@@ -71,18 +72,112 @@ $id1 = $query1->fetch_assoc();
                 <div class="col-lg-7 col-md-7 col-sm-6">
                     <h4 class="box-title mt-5">Description</h4>
                     <p>This movie is outrageous! You should definetely see it!</p>
+
+                    
+                    
+                    <ul class="list-group list-group-horizontal-sm">
+                    <li class="list-group-item">------------------------</li>
+                      <li class="list-group-item">Screen</li>
+                      <li class="list-group-item">--------------------------</li> 
+                    </ul>
+                    
+                    <ul class="list-group list-group-horizontal-xl">
+                      <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">1</button>
+                        </div>             
+                      </li>
+                      <li class="list-group-item"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">2</button>
+                        </div>
+                      </li>
+                      <li class="list-group-item">     
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">3</button>
+                        </div>          
+                      </li>
+                      <li class="list-group-item">     
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">4</button>
+                        </div>          
+                      </li>
+                    </ul>
+
+                    <ul class="list-group list-group-horizontal-sm">
+                      <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">5</button>
+                        </div>             
+                      </li>
+                      <li class="list-group-item"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">6</button>
+                        </div>
+                      </li>
+                      <li class="list-group-item">     
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">7</button>
+                        </div>          
+                      </li>
+                      <li class="list-group-item">     
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">8</button>
+                        </div>          
+                      </li>
+                    </ul>
+
+                    <ul class="list-group list-group-horizontal-sm">
+                      <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success ">9</button>
+                        </div>             
+                      </li>
+                      <li class="list-group-item buttonsize"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success">10</button>
+                        </div>
+                      </li>
+                      <li class="list-group-item buttonsize">     
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success">11</button>
+                        </div>          
+                      </li>
+                      <li class="list-group-item buttonsize">     
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success">12</button>
+                        </div>          
+                      </li>
+                    </ul>
+
+                    <ul class="list-group list-group-horizontal-sm">
+                      <li class="list-group-item buttonsize">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success">13</button>
+                        </div>             
+                      </li>
+                      <li class="list-group-item buttonsize"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success">14</button>
+                        </div>
+                      </li>
+                      <li class="list-group-item buttonsize">     
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success">15</button>
+                        </div>          
+                      </li>
+                      <li class="list-group-item buttonsize">     
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-success">16</button>
+                        </div>          
+                      </li>
+                    </ul>
+
+
+
                     <h2 class="mt-5">
                         $15
                     </h2>
-                    <button class="btn btn-dark btn-rounded mr-1" data-toggle="tooltip" title="" data-original-title="Add to cart">
-                        <i class="fa fa-shopping-cart"></i>
-                    </button>
-                    <button class="btn btn-primary btn-rounded">Buy Now</button>
+                    
+                    <form action="/productpages/getoutbuy.php"><button class="btn btn-primary btn-rounded">Buy Now</button></form>
                     <h3 class="box-title mt-5">Info</h3>
                     <ul class="list-unstyled">
                         <li><i>Director:</i><?php echo $id['Руководитель'] ?></li>
                         <li><i>Year of production:</i><?php echo $id['Год'] ?></li>
                         <li><i>Duration(min):</i><?php echo $id['Длительность'] ?></li>
+                        <li><i>Place:</i><?php echo $id1['Место'] ?></li>
                     </ul>
                 </div>
     
