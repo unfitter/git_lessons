@@ -1,4 +1,6 @@
-
+<?php
+$mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
+?>
 </!DOCTYPE html>
 <html>
 <head>
@@ -51,24 +53,32 @@
   <!-- Carousel wrapper -->
   
 <!-- Inner -->
+
 <div class="carousel-inner py-4">
   <!-- Single item -->
   <div class="carousel-item active">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
+          <?php
+
+          
+           $query = $mysql->query("SELECT * FROM `Мероприятие` WHERE `id` = 1 ");
+          
+          $id = $query->fetch_assoc();
+           ?>
           <div class="card">
             <img 
-            src="https://img.buzzfeed.com/buzzfeed-static/static/2022-04/12/15/asset/5d6f03f719f2/sub-buzz-649-1649777767-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto"
+            src="<?php echo $id['img'] ?>"
             class="card-img-top"
             alt="Get Out"
             />
             <div class="card-body">
-              <h5 class="card-title">Get Out</h5>
+              <h5 class="card-title"><?php echo $id['Название'] ?></h5>
               <p class="card-text">
                 Get Out on screens again!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/getout.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -102,7 +112,7 @@
               <p class="card-text">
                 Its Kubrick, you know
               </p>
-              <a href="productpage.html" class="btn btn-primary">Buy</a>
+              <a href="productpage.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -166,10 +176,9 @@
   
   <!-- Inner -->
 </div>
+
 <!-- Carousel wrapper -->
-<?php// else:  ?>
-<?php// $new_url = 'registration.html';
-//header('Location: '.$new_url); ?>
+
 
 </body>
 </html>

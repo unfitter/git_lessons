@@ -1,10 +1,13 @@
 </!DOCTYPE html>
+<?php
+
+ ?>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link href="style\productstyle.css" rel="stylesheet" type="text/css">
+  <link href="productstyle.css" rel="stylesheet" type="text/css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <title></title>
 </head>
@@ -50,11 +53,14 @@
 <div class="container">
     <div class="card">
         <div class="card-body">
-            <h3 class="card-title">The Shining</h3>
+            <h3 class="card-title"><?php
+
+            echo $id['Название'];
+           ?></h3>
             <h6 class="card-subtitle">Horror</h6>
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-6">
-                    <div class="white-box text-center"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2022-03/28/1/asset/fcf0aaaff603/sub-buzz-5991-1648431120-8.jpg?downsize=600:*&output-format=auto&output-quality=auto" class="card-img-top"></div>
+                    <div class="white-box text-center"><img src="<?php echo $id['img'] ?>" class="card-img-top"></div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-6">
                     <h4 class="box-title mt-5">Description</h4>
