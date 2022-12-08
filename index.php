@@ -27,10 +27,10 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
             <a class="nav-link active" aria-current="page" href="#">Cinema</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="theater.html">Theater</a>
+            <a class="nav-link active" href="theater.php">Theater</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="circus.html">Circus</a>
+            <a class="nav-link active" aria-current="page" href="circus.php">Circus</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">User Page</a>
@@ -78,7 +78,10 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
               <p class="card-text">
                 Get Out on screens again!
               </p>
-              <a href="/productpages/getout.php" class="btn btn-primary">Buy</a>
+              
+                      
+                      <a href="/productpages/getout.php" class="btn btn-primary">Buy</a>
+              
             </div>
           </div>
         </div>
@@ -95,7 +98,9 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
               <p class="card-text">
                 Real classic is here!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              
+              <a href="/productpages/socialnetwork.php" class="btn btn-primary">Buy</a>
+              
             </div>
           </div>
         </div>
@@ -112,7 +117,7 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
               <p class="card-text">
                 Its Kubrick, you know
               </p>
-              <a href="productpage.php" class="btn btn-primary">Buy</a>
+              <a href="/productpages/theshining.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -129,7 +134,7 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
               <p class="card-text">
                 Classic!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/jurassicpark.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -146,7 +151,7 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
               <p class="card-text">
                 Some great stroies must be seen!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/pulpfiction.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -163,7 +168,7 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
               <p class="card-text">
                 The genius of Steven Spielberg
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/backtofuture.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>

@@ -30,7 +30,7 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
 $cookiename = $_COOKIE["user"];
 //$pageresult = $_COOKIE[];
 
-$result = $mysql->query("SELECT * FROM `Мероприятие` WHERE `Название` = 'Get Out'");
+$result = $mysql->query("SELECT * FROM `Мероприятие` WHERE `Название` = 'Carmen'");
 $film = $result->fetch_assoc();
 $film1 = $film['Название'];
 $mesto = $_POST['seat'];

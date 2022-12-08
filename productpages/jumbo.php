@@ -2,8 +2,8 @@
 <?php
 
 $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
- $query = $mysql->query("SELECT * FROM `Описание` WHERE `id` = 1 ");
- $query1 = $mysql->query("SELECT * FROM `Мероприятие` WHERE `id` = 1 ");
+ $query = $mysql->query("SELECT * FROM `Описание` WHERE `id` = 13 ");
+ $query1 = $mysql->query("SELECT * FROM `Мероприятие` WHERE `id` = 13 ");
 
  $id = $query->fetch_assoc();
 $id1 = $query1->fetch_assoc();
@@ -84,7 +84,7 @@ $id1 = $query1->fetch_assoc();
                     <ul class="list-group list-group-horizontal-xl">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="1" />
                         <button type="submit" class="btn btn-success ">1</button>
                       </form>
@@ -93,7 +93,7 @@ $id1 = $query1->fetch_assoc();
 
                       <li class="list-group-item"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                       
-                      <form method="post" action="/productpages/ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="2" />
                         <button type="submit" class="btn btn-success">2</button>
                       </form>
@@ -103,7 +103,7 @@ $id1 = $query1->fetch_assoc();
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                        
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="3" />
                       <button type="submit" class="btn btn-success ">3</button></form>
                         </div>          
@@ -112,7 +112,7 @@ $id1 = $query1->fetch_assoc();
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                        
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="4" />
                       <button type="submit" class="btn btn-success ">4</button></form>
                         </div>          
@@ -122,14 +122,14 @@ $id1 = $query1->fetch_assoc();
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                       
-                      <form method="post" action="ticketdata.php"><input type="hidden" name="seat" value="5" />
+                      <form method="post" action="jumbodata.php"><input type="hidden" name="seat" value="5" />
                       <button type="submit" class="btn btn-success ">5</button></form>
                         </div>             
                       </li>
 
                       <li class="list-group-item"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                      
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="6" />
                       <button type="submit" class="btn btn-success ">6</button></form>
                         </div>
@@ -138,7 +138,7 @@ $id1 = $query1->fetch_assoc();
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                       
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="7" />
                       <button type="submit" class="btn btn-success ">7</button></form>
                         </div>          
@@ -147,7 +147,7 @@ $id1 = $query1->fetch_assoc();
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="8" />
                       <button type="submit" class="btn btn-success ">8</button></form>
                         </div>          
@@ -157,7 +157,7 @@ $id1 = $query1->fetch_assoc();
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="9" />
                       <button type="submit" class="btn btn-success ">9</button></form>
                         </div>             
@@ -165,7 +165,7 @@ $id1 = $query1->fetch_assoc();
 
                       <li class="list-group-item buttonsize"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                       
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="10" />
                       <button type="submit" class="btn btn-success ">10</button></form>
                         </div>
@@ -173,7 +173,7 @@ $id1 = $query1->fetch_assoc();
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                        
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="11" />
                       <button type="submit" class="btn btn-success ">11</button></form>
                         </div>          
@@ -182,7 +182,7 @@ $id1 = $query1->fetch_assoc();
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="12" />
                       <button type="submit" class="btn btn-success ">12</button></form>
                         </div>          
@@ -192,7 +192,7 @@ $id1 = $query1->fetch_assoc();
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item buttonsize">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="13" />
                       <button type="submit" class="btn btn-success ">13</button></form>
                         </div>             
@@ -200,7 +200,7 @@ $id1 = $query1->fetch_assoc();
 
                       <li class="list-group-item buttonsize"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                        
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="14" />
                       <button type="submit" class="btn btn-success ">14</button></form>
                         </div>
@@ -209,7 +209,7 @@ $id1 = $query1->fetch_assoc();
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                        
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="15" />
                       <button type="submit" class="btn btn-success ">15</button></form>
                         </div>          
@@ -217,7 +217,7 @@ $id1 = $query1->fetch_assoc();
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         
-                      <form method="post" action="ticketdata.php">
+                      <form method="post" action="jumbodata.php">
                       <input type="hidden" name="seat" value="16" />
                         <button type="submit" class="btn btn-success">16</button></form>
                         </div>          

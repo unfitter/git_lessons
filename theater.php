@@ -1,4 +1,6 @@
-
+<?php
+$mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
+?>
 </!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +12,9 @@
 </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <?php  if ($_COOKIE['user'] != '') :        ?>
+  <p>Привет <?=$_COOKIE['user']?>. Чтобы выйти нажмите <a href="exit.php">здесь</a></p>
+  <?php endif;?>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Afisha</a>
@@ -65,7 +70,7 @@
               <p class="card-text">
                 Ben Akiba on a stage again
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/weepinggame.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -82,7 +87,7 @@
               <p class="card-text">
                 Mac Beth on a stage again. Again...
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/macbeth.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -99,7 +104,7 @@
               <p class="card-text">
                 What is Tigar? You should see to know!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/tigar.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -116,7 +121,7 @@
               <p class="card-text">
                 Classic!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/manlamancha.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -133,7 +138,7 @@
               <p class="card-text">
                 You will love her, you will hate her. Its Carmen!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/carmen.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -150,7 +155,7 @@
               <p class="card-text">
                 Deep secrets of Giuseppe Verdi
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/aida.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>

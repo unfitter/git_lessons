@@ -1,4 +1,6 @@
-
+<?php
+$mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
+?>
 </!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +12,9 @@
 </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <?php  if ($_COOKIE['user'] != '') :        ?>
+  <p>Привет <?=$_COOKIE['user']?>. Чтобы выйти нажмите <a href="exit.php">здесь</a></p>
+  <?php endif;?>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Afisha</a>
@@ -65,7 +70,7 @@
               <p class="card-text">
                 The greatest elephant on Earth!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/jumbo.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -82,7 +87,7 @@
               <p class="card-text">
                 Its a Tiger. C'mon!
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/tiger.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -99,7 +104,7 @@
               <p class="card-text">
                 There are 3 of them...
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/greatest.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -116,7 +121,7 @@
               <p class="card-text">
                 Make sure you are not afraid of them
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/manlamancha.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -133,7 +138,7 @@
               <p class="card-text">
                 It's just awsome
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/casino.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
@@ -150,7 +155,7 @@
               <p class="card-text">
                 He will open this can of cucumbers...
               </p>
-              <a href="#!" class="btn btn-primary">Buy</a>
+              <a href="/productpages/strongest.php" class="btn btn-primary">Buy</a>
             </div>
           </div>
         </div>
