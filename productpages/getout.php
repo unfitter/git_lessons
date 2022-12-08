@@ -83,84 +83,102 @@ $id1 = $query1->fetch_assoc();
                     
                     <ul class="list-group list-group-horizontal-xl">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">1</button>
+                      <input type="hidden" name="seat" value="1" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">1</button></form>
                         </div>             
                       </li>
                       <li class="list-group-item"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">2</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="/productpages/ticketdata.php">
+                        <button type="submit" class="btn btn-success">2</button>
+                      </form>
                         </div>
                       </li>
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">3</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">3</button></form>
                         </div>          
                       </li>
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">4</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">4</button></form>
                         </div>          
                       </li>
                     </ul>
 
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">5</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">5</button></form>
                         </div>             
                       </li>
                       <li class="list-group-item"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">6</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">6</button></form>
                         </div>
                       </li>
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">7</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">7</button></form>
                         </div>          
                       </li>
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">8</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">8</button></form>
                         </div>          
                       </li>
                     </ul>
 
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success ">9</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">9</button></form>
                         </div>             
                       </li>
                       <li class="list-group-item buttonsize"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success">10</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">10</button></form>
                         </div>
                       </li>
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success">11</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">11</button></form>
                         </div>          
                       </li>
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success">12</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">12</button></form>
                         </div>          
                       </li>
                     </ul>
 
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item buttonsize">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success">13</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">13</button></form>
                         </div>             
                       </li>
                       <li class="list-group-item buttonsize"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success">14</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">14</button></form>
                         </div>
                       </li>
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success">15</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">15</button></form>
                         </div>          
                       </li>
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="submit" class="btn btn-success">16</button>
+                      <input type="hidden" name="seat" />  
+                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">16</button></form>
                         </div>          
                       </li>
                     </ul>
@@ -174,10 +192,12 @@ $id1 = $query1->fetch_assoc();
                     <form action="/productpages/getoutbuy.php"><button class="btn btn-primary btn-rounded">Buy Now</button></form>
                     <h3 class="box-title mt-5">Info</h3>
                     <ul class="list-unstyled">
-                        <li><i>Director:</i><?php echo $id['Руководитель'] ?></li>
-                        <li><i>Year of production:</i><?php echo $id['Год'] ?></li>
-                        <li><i>Duration(min):</i><?php echo $id['Длительность'] ?></li>
-                        <li><i>Place:</i><?php echo $id1['Место'] ?></li>
+                        <li><i>Director: </i><?php echo $id['Руководитель'] ?></li>
+                        <li><i>Year of production: </i><?php echo $id['Год'] ?></li>
+                        <li><i>Duration(min): </i><?php echo $id['Длительность'] ?></li>
+                        <li><i>Place: </i><?php echo $id1['Место'] ?></li>
+                        <li><i>Date: </i><?php echo $id1['Дата'] ?></li>
+                        <li><i>Time: </i><?php echo $id1['Время'] ?></li>
                     </ul>
                 </div>
     
