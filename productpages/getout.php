@@ -83,102 +83,143 @@ $id1 = $query1->fetch_assoc();
                     
                     <ul class="list-group list-group-horizontal-xl">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" value="1" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">1</button></form>
+                        
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="1" />
+                        <button type="submit" class="btn btn-success ">1</button>
+                      </form>
                         </div>             
                       </li>
+
                       <li class="list-group-item"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
+                      
                       <form method="post" action="/productpages/ticketdata.php">
+                      <input type="hidden" name="seat" value="2" />
                         <button type="submit" class="btn btn-success">2</button>
                       </form>
                         </div>
+
                       </li>
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">3</button></form>
+                       
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="3" />
+                      <button type="submit" class="btn btn-success ">3</button></form>
                         </div>          
                       </li>
+
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">4</button></form>
+                       
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="4" />
+                      <button type="submit" class="btn btn-success ">4</button></form>
                         </div>          
                       </li>
                     </ul>
 
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">5</button></form>
+                      
+                      <form method="post" action="ticketdata.php"><input type="hidden" name="seat" value="5" />
+                      <button type="submit" class="btn btn-success ">5</button></form>
                         </div>             
                       </li>
+
                       <li class="list-group-item"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">6</button></form>
+                     
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="6" />
+                      <button type="submit" class="btn btn-success ">6</button></form>
                         </div>
                       </li>
+
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">7</button></form>
+                      
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="7" />
+                      <button type="submit" class="btn btn-success ">7</button></form>
                         </div>          
                       </li>
+
                       <li class="list-group-item">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">8</button></form>
+                        
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="8" />
+                      <button type="submit" class="btn btn-success ">8</button></form>
                         </div>          
                       </li>
                     </ul>
 
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">9</button></form>
+                        
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="9" />
+                      <button type="submit" class="btn btn-success ">9</button></form>
                         </div>             
                       </li>
+
                       <li class="list-group-item buttonsize"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">10</button></form>
+                      
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="10" />
+                      <button type="submit" class="btn btn-success ">10</button></form>
                         </div>
                       </li>
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">11</button></form>
+                       
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="11" />
+                      <button type="submit" class="btn btn-success ">11</button></form>
                         </div>          
                       </li>
+
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">12</button></form>
+                        
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="12" />
+                      <button type="submit" class="btn btn-success ">12</button></form>
                         </div>          
                       </li>
                     </ul>
 
                     <ul class="list-group list-group-horizontal-sm">
                       <li class="list-group-item buttonsize">  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">13</button></form>
+                        
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="13" />
+                      <button type="submit" class="btn btn-success ">13</button></form>
                         </div>             
                       </li>
+
                       <li class="list-group-item buttonsize"><div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">14</button></form>
+                       
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="14" />
+                      <button type="submit" class="btn btn-success ">14</button></form>
                         </div>
                       </li>
+
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">15</button></form>
+                       
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="15" />
+                      <button type="submit" class="btn btn-success ">15</button></form>
                         </div>          
                       </li>
                       <li class="list-group-item buttonsize">     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="hidden" name="seat" />  
-                      <form method="post" action="ticketdata.php"><button type="submit" class="btn btn-success ">16</button></form>
+                        
+                      <form method="post" action="ticketdata.php">
+                      <input type="hidden" name="seat" value="16" />
+                        <button type="submit" class="btn btn-success">16</button></form>
                         </div>          
                       </li>
                     </ul>

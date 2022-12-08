@@ -6,6 +6,7 @@ $seat = filter_var(trim((int)$_POST['seat']));
 
 
 
+
 /*if (mb_strlen ($login) < 5 || mb_strlen($login) > 90) {
     echo "Недоспутимая длина логина";
     exit ();
