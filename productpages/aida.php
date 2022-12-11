@@ -44,10 +44,10 @@ $id1 = $query1->fetch_assoc();
         <div class="float-right">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item  ">
-            <a class="nav-link active " aria-current="page" href="authorization.html">Sign In</a>
+            <a class="nav-link active " aria-current="page" href="/authorization.html">Sign In</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link active " aria-current="page" href="registration.html">Sign Up</a>
+            <a class="nav-link active " aria-current="page" href="/registration.html">Sign Up</a>
           </li>
         </ul>
         </div>>
