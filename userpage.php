@@ -46,9 +46,19 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
           </li>
         </ul>
         </div>>
-        <?php  if ($_COOKIE['user'] != '') :        ?>
-  <p>Привет <?=$_COOKIE['user']?>. <h1>>Чтобы выйти нажмите</h1> </p>
-  <?php endif;?>
+        
       </div>
     </div>
   </nav>
+  <?php  if ($_COOKIE['user'] != '') :        ?>
+  <h3>Привет <?=$_COOKIE['user']?></h3>
+  <?php endif;?>
+  <h4>Ваши билеты на данный момент:</h4>
+  <?php 
+      $bresult = $mysql->query("SELECT * FROM `Билеты` WHERE `владелец` = `$_COOKIE['user']`");
+      $bilet = $bresult->fetch_assoc();
+      <p>echo $bilet['Место'];</p>
+      echo $bilet['Цена'];
+      echo $bilet['Название'];
+      echo $bilet['владелец'];
+   ?>
