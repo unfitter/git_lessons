@@ -16,6 +16,7 @@ if(count($user) == 0){
 
 setcookie('user', $user['Имя'], time() + 36000, "/");
 
+
 $mysql->close();
 header('Location: index.php');
 
