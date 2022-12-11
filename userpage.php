@@ -24,13 +24,13 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"> 
-            <a class="nav-link active" aria-current="page" href="#">Cinema</a>
+            <a class="nav-link active" aria-current="page" href="/index.php">Cinema</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="theater.php">Theater</a>
+            <a class="nav-link active" href="/theater.php">Theater</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="circus.php">Circus</a>
+            <a class="nav-link active" aria-current="page" href="/circus.php">Circus</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">User Page</a>
@@ -55,10 +55,13 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
   <?php endif;?>
   <h4>Ваши билеты на данный момент:</h4>
   <?php 
-      $bresult = $mysql->query("SELECT * FROM `Билеты` WHERE `владелец` = `$_COOKIE['user']`");
+      $check = $_COOKIE['user'];
+      $bresult = $mysql->query("SELECT * FROM `Билеты` WHERE `владелец` = '$check'");
       $bilet = $bresult->fetch_assoc();
-      <p>echo $bilet['Место'];</p>
-      echo $bilet['Цена'];
-      echo $bilet['Название'];
-      echo $bilet['владелец'];
-   ?>
+      ?>
+      <p> Ваше место <?php echo $bilet['Место'] ?></p>
+      <p> Цена билета <?php echo $bilet['Цена'] ?></p>
+      <p> Название мероприятия <?php echo $bilet['Название'] ?></p>
+  </body>
+   
+   </html>

@@ -27,13 +27,13 @@ $mysql = new mysqli('localhost', 'root', '', 'Kursovaya');
             <a class="nav-link active" aria-current="page" href="index.php">Cinema</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="theater.html">Theater</a>
+            <a class="nav-link active" href="theater.php">Theater</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="circus.html">Circus</a>
+            <a class="nav-link active" aria-current="page" href="circus.php">Circus</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">User Page</a>
+            <a class="nav-link active" aria-current="page" href="userpage.php">User Page</a>
           </li>
         </ul>
         <div class="float-right">
